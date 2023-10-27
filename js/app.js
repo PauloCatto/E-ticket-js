@@ -9,6 +9,7 @@ function comprar() {
     } else {
         comprarCadeiraInferior(qtd);
     }
+    document.getElementById('qtd').value = '';
 }
 
 function comprarPista(qtd) {
