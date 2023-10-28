@@ -44,6 +44,6 @@ function comprarCadeiraInferior(qtd) {
     } else {
         qtdInferior = inferior - qtd;
         document.getElementById('qtd-inferior').textContent = qtdInferior;
-        alert('parabens, deu certo a parada');
+        alert('Compra realizada com sucesso');
     }
 }
